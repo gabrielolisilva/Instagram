@@ -1,0 +1,179 @@
+@charset 'UTF-8';
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#conteudo{
+    display: flex;
+    justify-content: center;
+    margin: 98px auto 0;
+    max-width: 935px;
+    padding-bottom: 32px;
+    width: 100%;
+}
+
+#ladoEsquerdo{
+    padding-right: 30px;
+}
+
+#ladoDireitoP1{
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 20px 40px;
+}
+
+#divElementos{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#divIMG{
+    text-align: center;
+    cursor: pointer;
+}
+
+#ladoDireitoP1 img{
+    max-width: 180px;
+}
+
+#barraUsuario{
+    margin-bottom: 5px;
+}
+
+#barraUsuario input{
+    width: 230px;
+    height: 30px;
+    font-size: 12px;
+}
+
+#barraSenha{
+    margin-bottom: 10px;
+}
+
+#barraSenha input{
+    width: 230px;
+    height: 30px;
+    font-size: 12px;
+}
+
+#barraEntrar{
+    margin-bottom: 15px;
+}
+
+#barraEntrar button{
+    background-color: rgb(74, 147, 243);
+    border: none;
+    border-radius: 3px;
+    width: 234px;
+    height: 26px;
+    color: white;
+}
+
+#barraOu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divOu{
+    padding: 0px 20px;
+    font-size: 13px;
+}
+
+.traço{
+    height: 1px;
+    width: 87px;
+    background-color: black;
+}
+
+#barraFacebook{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+#divFacebook img{
+    width: 20px;
+    padding-right: 8px;
+}
+
+#divButtonFacebook button{
+    background-color: white;
+    color: #3b5998;
+    border: none;
+    font-size: 17px;
+}
+
+#divElementos a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+#ladoDireitoP2{
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    padding: 25px;
+    font-size: 15px;
+}
+
+#ladoDireitoP2 a{
+    text-decoration: none;
+    color: rgb(14, 142, 226);
+}
+
+#ladoDireitoP3 {
+    margin-top: 20px;
+}
+
+#ladoDireitoP3 p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    margin-top: 97px;
+}
+
+#footerParte1{
+    text-align: center;
+    font-size: 12px;
+}
+
+#footerParte1 a{
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+    padding: 0px 10px;
+}
+
+#footerParte1_1{
+    padding-bottom: 15px;
+}
+
+#footerParte2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: rgb(139, 139, 139);
+    font-size: 12px;
+}
+
+#footerParte2_1{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
