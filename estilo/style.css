@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 #conteudo{
@@ -177,3 +178,56 @@ footer{
     padding-right: 10px;
 }
 
+@media screen and (max-width: 810px) {
+    #conteudo{
+        justify-items: center;
+    }
+
+    #ladoEsquerdo img{
+        width: 260px;
+    }
+
+    #ladoDireitoP1{
+        border: 1px solid rgba(0, 0, 0, 0.308);
+    }
+
+    #ladoDireitoP2{
+        border: 1px solid rgba(0, 0, 0, 0.308);;
+    }
+
+    footer{
+        margin-top: 11px;
+        margin: auto;
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html, body{
+        overflow-x: hidden;
+    }
+
+    #conteudo{
+        display: block;
+        margin: auto;
+        max-width: 900px;
+    }
+
+    #ladoEsquerdo{
+        display: none;
+    }
+
+    #ladoDireitoP1{
+        border: none
+    }
+
+    #ladoDireitoP2{
+        border: none;
+    }
+
+    footer{
+        margin-top: 11px;
+        margin: auto;
+        max-width: 300px;
+    }
+}
